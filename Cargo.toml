@@ -1,0 +1,9 @@
+[package]
+name = "whiskers-lynx"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+whiskers_palette_rs = { git = "https://github.com/Whiskers-Color-Scheme/whiskers-palette-rs" }
+inquire = "0.7.5"
+colored = "2.1.0"

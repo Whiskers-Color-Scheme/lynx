@@ -1,5 +1,7 @@
 use inquire::Select;
 
+use crate::features::palette::show_palette;
+
 pub fn show_main_menu() {
 
     let art = r#"
@@ -16,10 +18,13 @@ pub fn show_main_menu() {
     let readme_opt = "Create a README.md";
     let options = vec![palette_opt, readme_opt];
 
-    let ans = Select::new("Menu", options).prompt();
+    println!("\n\n\n\n");
+    let ans = Select::new("Select an option", options).prompt();
 
     if let Ok(choice) = ans {
-        if choice == palette_opt {}
+        if choice == palette_opt {
+            show_palette();
+        }
 
         if choice == readme_opt {
             show_readme_menu();

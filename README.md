@@ -1,169 +1,33 @@
-<div align="center">
+## 🔍 About
 
-<img src="https://raw.githubusercontent.com/Whiskers-Color-Scheme/assets/main/logos/logo-rounded.webp" width="100">
+Lynx is a helper tool for creating ports to the Whiskers Color Scheme org
 
-### Whiskers for [PORT NAME](PORT URL)
-
-<div>
-    <img src="https://raw.githubusercontent.com/Whiskers-Color-Scheme/assets/f73d25d4aa4480b7c4d593fb6ae8f4288f3fb5c0/previews/panther-preview.svg" width="300">
-    <img src="https://raw.githubusercontent.com/Whiskers-Color-Scheme/assets/f73d25d4aa4480b7c4d593fb6ae8f4288f3fb5c0/previews/tiger-preview.svg" width="300">
-</div>
-</div>
+## TODO
+- [ ] Create multiple files from template file
+- [ ] Search ports
+- [ ] List ports
+- [ ] List maintainers
+- [ ] Search maintainers
 
 ## 👷‍♂️ Install
-
-- Step 1
-
-- Step 2
-
-- Step 3
-
+To install the app use the following command:
 ```bash
-// Some code if needed
+cargo install --git https://github.com/Whiskers-Color-Scheme/lynx
 ```
 
-## 👷‍♂️ Install
-
-- Click on the following themes to install them
-
-    <details>
-    <summary>🐈‍⬛ Panther</summary>
-
-    - [🍌 Banana]()
-
-    - [🍒 Cherry]()
-
-    - [🫐 Blueberry]()
-
-    - [🥝 Kiwi]()
-
-    - [🍇 Grape]()
-
-    - [🍊 Tangerine]()
-    </details>
-
-    <details>
-    <summary>🐯 Tiger</summary>
-
-    - [🍌 Banana]()
-
-    - [🍒 Cherry]()
-
-    - [🫐 Blueberry]()
-
-    - [🍇 Grape]()
-
-    - [🥝 Kiwi]()
-
-    - [🍊 Tangerine]()
-  </details>
-
-## 👷‍♂️ Install
-
-- Step 1
-
-- Step 2
-
-    <details open>
-    <summary>🐈‍⬛ Panther</summary>
-
-  🍌 Banana
-
-  ```css
-  
-  ```
-
-  🍒 Cherry
-
-  ```css
-  
-  ```
-
-  🫐 Blueberry
-
-  ```css
-  
-  ```
-
-  🥝 Kiwi
-
-  ```css
-  
-  ```
-
-  🍇 Grape
-
-  ```css
-  
-  ```
-
-  🍊 Tangerine
-
-  ```css
-  
-  ```
-
-    </details>
-
-    <details open>
-    <summary>🐯 Tiger</summary>
-
-  🍌 Banana
-
-  ```css
-  
-  ```
-
-  🍒 Cherry
-
-  ```css
-  
-  ```
-
-  🫐 Blueberry
-
-  ```css
-  
-  ```
-
-  🥝 Kiwi
-
-  ```css
-  
-  ```
-
-  🍇 Grape
-
-  ```css
-  
-  ```
-
-  🍊 Tangerine
-
-  ```css
-  
-  ```
-
-  </details>
+Alternatively you can download the [latest release](https://github.com/Whiskers-Color-Scheme/lynx/releases)
 
 ## ✌️ Usage
 
-- Step 1
+### Get Color Palette
+The program offers an option to see the entire Color Palette.
+To see it use the Color Palette option in the main menu.
 
-- Step 2
-
-## 🖐️ FAQ
-
-**Question 1**
-
-Answer to the question 1
-
-**Question 2**
-
-Answer to the question 2
-
-
+### Create a readme file
+The program offers a readme builder so it's easier to create one in the right format.
+To use it select the create README.md option in the main menu.
 
 ## 💻 Maintainers
 
-- [MAINTAINER_GITHUB_NAME](MAINTAINER_GITHUB_URL)
+- [lighttigerXIV](https://github.com/lighttigerxiv)
+

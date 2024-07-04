@@ -67,7 +67,7 @@ pub fn create_interactive_readme() {
 
     readme_content += &maintainers;
 
-    let mut readme_path = env::current_exe().unwrap().parent().unwrap().to_owned();
+    let mut readme_path = env::current_dir().unwrap().to_owned();
     readme_path.push("README.md");
 
     fs::write(&readme_path, readme_content.as_bytes()).expect("Error writing README.md");
@@ -77,7 +77,7 @@ pub fn create_interactive_readme() {
 
 pub fn create_default_readme() {
     let readme_content = include_str!("./templates/default_readme.md");
-    let mut readme_path = env::current_exe().unwrap().parent().unwrap().to_owned();
+    let mut readme_path = env::current_dir().unwrap().to_owned();
     readme_path.push("README.md");
 
     fs::write(&readme_path, readme_content.as_bytes()).expect("Error writing README.md");
